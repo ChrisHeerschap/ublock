@@ -41,14 +41,6 @@ www.strava.com##div.activity:has-text(/Try Zwift for free/)
 ! Block workouts - not currently working.
 www.strava.com##div.activity:contains(/app-icon icon-workout/)
 
-! Stravistix cleanup
-##.summaryGrid > table > tbody > tr:nth-of-type(1)
-##.summaryGrid > table > tbody > tr:nth-of-type(2)
-##.summaryGrid > table > tbody > tr:nth-of-type(3)
-##.summaryGrid > table > tbody > tr:nth-of-type(5)
-
 ! Share to facebook button on upload page
 www.strava.com##.button-container.sharing-button-container > .control-container
 
-! Fucking super-annoying animated Stan's GIF in Dirt Rag newsletter
-||ci6.googleusercontent.com/proxy/g_IBmuYTpdz881Ok-5enanfrjzP1v8ayRgKkjzrgw97gL4tJdQrKg5c_L6H34pwaR7387HJO1wvV0QJjhqPjXiN6cHy7TYyTT0AwZueCTtEH0V_aJnUmuUubnNOcY541pAV-ninmwUtOkE7d8KjJuueV6x5_Lcs7EtsOpDo=s0-d-e1-ft$image
