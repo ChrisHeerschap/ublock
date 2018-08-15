@@ -1,0 +1,50 @@
+! Kill off their annoying promo shit
+www.strava.com##.promo-fancy
+
+! Get rid of the "Start Free Trial" button on the top right.
+www.strava.com##.experiment > .btn-primary.btn-sm.btn
+
+! Ad crap on the top of the right sidebar
+www.strava.com###explore-strava
+
+! Spam about challenges
+www.strava.com###your-challenges
+
+! "Try a Privacy Zone" spam
+www.strava.com###your-privacy-zone
+! More privacy zone inline bullshit.
+www.strava.com###simple_promo-1534350912\.1887217.card.feed-entry.promo-simple.promo
+
+! Shitcan the annoying suggested follows
+www.strava.com###suggested-follows
+
+! "Go premium" spam in the left sidebar
+www.strava.com###ride-goals > .js-view > div.card-body:nth-of-type(1) > .upsell.media
+
+! Manage Your Goals
+www.strava.com##.card-group.card > .card > .card-footer > .card-section
+
+! Block Peloton bullshit rides by title.
+www.strava.com##div.activity:has-text(/[0-9]+ min .* with /)
+
+! Block Trainer Road bullshit rides by title.
+www.strava.com##div.activity:has-text(/rode on TrainerRoad/)
+
+! Block ZWIFT! fuckyeah.gif
+www.strava.com##div.activity:has-text(/ rode on Zwift/)
+www.strava.com##div.activity:has-text(/Try Zwift for free/)
+
+! Block workouts - not currently working.
+www.strava.com##div.activity:contains(/app-icon icon-workout/)
+
+# Stravistix cleanup
+##.summaryGrid > table > tbody > tr:nth-of-type(1)
+##.summaryGrid > table > tbody > tr:nth-of-type(2)
+##.summaryGrid > table > tbody > tr:nth-of-type(3)
+##.summaryGrid > table > tbody > tr:nth-of-type(5)
+
+! Share to facebook button on upload page
+www.strava.com##.button-container.sharing-button-container > .control-container
+
+! Fucking super-annoying animated Stan's GIF in Dirt Rag newsletter
+||ci6.googleusercontent.com/proxy/g_IBmuYTpdz881Ok-5enanfrjzP1v8ayRgKkjzrgw97gL4tJdQrKg5c_L6H34pwaR7387HJO1wvV0QJjhqPjXiN6cHy7TYyTT0AwZueCTtEH0V_aJnUmuUubnNOcY541pAV-ninmwUtOkE7d8KjJuueV6x5_Lcs7EtsOpDo=s0-d-e1-ft$image
