@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/ChrisHeerschap/ublock
 ! 
 ! Kill off their annoying promo shit
+www.strava.com##.card.promo
 www.strava.com##.promo-fancy
 
 ! Get rid of the "Start Free Trial" button on the top right.
@@ -17,8 +18,6 @@ www.strava.com###your-challenges
 
 ! "Try a Privacy Zone" spam
 www.strava.com###your-privacy-zone
-! More privacy zone inline bullshit.
-www.strava.com###simple_promo-1534350912\.1887217.card.feed-entry.promo-simple.promo
 
 ! Shitcan the annoying suggested follows
 www.strava.com###suggested-follows
@@ -42,7 +41,7 @@ www.strava.com##div.activity:has-text(/Try Zwift for free/)
 ! Block workouts - not currently working.
 www.strava.com##div.activity:contains(/app-icon icon-workout/)
 
-# Stravistix cleanup
+! Stravistix cleanup
 ##.summaryGrid > table > tbody > tr:nth-of-type(1)
 ##.summaryGrid > table > tbody > tr:nth-of-type(2)
 ##.summaryGrid > table > tbody > tr:nth-of-type(3)
