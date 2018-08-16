@@ -1,5 +1,5 @@
 ! Title: Strava purification filters
-! Expires: 7 days
+! Expires: 1 days
 ! Description: Filters to be used with uBlock to clean up the Strava feed
 ! Homepage: https://github.com/ChrisHeerschap/ublock
 ! 
