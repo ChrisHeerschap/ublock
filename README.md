@@ -19,5 +19,5 @@ https://raw.githubusercontent.com/ChrisHeerschap/ublock/master/ublock.txt
 1. Click the checkbox next to Import and it'll open up a text entry pane.
 1. Paste in the URL you've copied
 1. "Apply changes" becomes active in the top right, click that.
+1. The "Update now" button on the upper left becomes active, click it to load the new rulesets
 1. Reload Strava and enjoy the greatly uncluttered dashboard.
-
