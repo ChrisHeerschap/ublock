@@ -21,3 +21,7 @@ https://raw.githubusercontent.com/ChrisHeerschap/ublock/master/ublock.txt
 1. "Apply changes" becomes active in the top right, click that.
 1. The "Update now" button on the upper left becomes active, click it to load the new rulesets
 1. Reload Strava and enjoy the greatly uncluttered dashboard.
+
+## Disclaimer
+
+I'm pretty new to this, and am only starting to learn the structures that I'm working with here, so it's possible these rules might block too much, or possible it'll cause Strava to not work properly for you. You might look at my rules and think "wow, that's stupid, a much better way to do it would be ..." - hey, I fully expect that, friends have already pointed out ugly ways I've done things that could be far better, so I'm open to different ideas. You could create a pull request, or open an issue with your suggestions, if nothing else it'll help me learn.
