@@ -41,8 +41,8 @@ www.strava.com##div.activity:has-text(/trained with The Sufferfest/)
 www.strava.com##div.activity:has-text(/ rode on Zwift/)
 www.strava.com##div.activity:has-text(/Try Zwift for free/)
 
-! Block workouts - not currently working.
-www.strava.com##div.activity:contains(/app-icon icon-workout/)
+! Block workouts
+strava.com##.card:has(.icon-workout)
 
 ! Share to facebook button on upload page
 www.strava.com##.button-container.sharing-button-container > .control-container
