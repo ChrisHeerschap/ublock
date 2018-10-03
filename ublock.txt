@@ -34,6 +34,9 @@ www.strava.com##div.activity:has-text(/[0-9]+ min .* with /)
 ! Block Trainer Road bullshit rides by title.
 www.strava.com##div.activity:has-text(/rode on TrainerRoad/)
 
+! Block Sufferfest bullshit rides by title.
+www.strava.com##div.activity:has-text(/trained with The Sufferfest/)
+
 ! Block ZWIFT! fuckyeah.gif
 www.strava.com##div.activity:has-text(/ rode on Zwift/)
 www.strava.com##div.activity:has-text(/Try Zwift for free/)
