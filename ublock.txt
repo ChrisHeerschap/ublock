@@ -28,6 +28,9 @@ www.strava.com###ride-goals > .js-view > div.card-body:nth-of-type(1) > .upsell.
 ! Manage Your Goals
 www.strava.com##.card-group.card > .card > .card-footer > .card-section
 
+! Block virtual rides. (should make the following rules redundant)
+strava.com##.card:has(.icon-virtualride)
+
 ! Block Peloton bullshit rides by title.
 www.strava.com##div.activity:has-text(/[0-9]+ min .* with /)
 
