@@ -50,3 +50,9 @@ strava.com##.card:has(.icon-workout)
 ! Share to facebook button on upload page
 www.strava.com##.button-container.sharing-button-container > .control-container
 
+! Block challenge cards
+www.strava.com##div[id^="Challenge"]
+
+! Block club cards
+www.strava.com##div[id^="Club"]
+
