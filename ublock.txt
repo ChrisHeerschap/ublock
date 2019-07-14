@@ -56,3 +56,6 @@ www.strava.com##div[id^="Challenge"]
 ! Block club cards
 www.strava.com##div[id^="Club"]
 
+! Block "Start free trial" button in the upper right
+www.strava.com##.btn-primary.btn-sm.btn.experiment
+
